@@ -1,0 +1,26 @@
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.box{
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+    /* padding-left: 120px;
+    padding-top: 100px; */
+    padding: 60px 0 0 50px;
+    margin: 10% auto;
+    border: 20px rgb(66, 203, 3);
+    border-style: groove;
+}
+
+.pera{
+    width: 75%;
+    height: 75%;
+    background-color: yellow;
+    overflow-y: scroll;
+}

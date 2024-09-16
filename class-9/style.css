@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Sevillana';
+    src: url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+}
+
+body{
+    background-color: rgb(255, 145, 0);
+}
+
+.heading{
+    color: red;
+}
+
+#h1{
+    color: blue;
+}
+
+h2{
+    color: rgb(238, 62, 128);
+}
+
+.opacity{
+    color: rgb(216, 20, 20);
+}
+
+.first-box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.second-box{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(251, 255, 0, 0.452);
+    position: relative;
+    top: -100px;
+    right: -100px;
+}
+
+.text-weight{
+    font-weight: 900;
+    font-size: 100px;
+    font-stretch:semi-condensed;
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: red;
+    line-height: 100px;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    text-align: center;
+    
+}
