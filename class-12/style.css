@@ -1,0 +1,53 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 12% auto;
+    box-shadow: 0 0 14px 15px rgb(91 212 37);
+    border-radius: 100px;
+}
+.webite{
+    height: 100vh;
+}
+.heading{
+    text-align: center;
+}
+.the{
+ text-align: center;
+ line-height: 2px;
+}
+.analog{
+    text-align: center;
+    line-height: 2px;
+
+}
+.specialist{
+    line-height: 2px;
+    text-align: center;
+
+}
+
+.header{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+ul{
+    margin-left: 25%;
+}
+
+li{
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.images-box{
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.dummy-text{
+    margin-left: 27%;
+    width: 600px;
+    text-align: center;
+}
