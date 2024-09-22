@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storytelling Adventures</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #ff9900;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav {
+            background-color: #ff9900;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            flex: 1;
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .story-preview {
+            background-color: white;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .story-preview img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #ff6600;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #ff8533;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- <header>
+        <h1>Storytelling Adventures</h1>
+    </header> -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#stories">Stories</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Welcome to Storytelling Adventures!</h2>
+            <p>Embark on a journey through magical worlds and exciting tales. Our stories will captivate your imagination and transport you to places you've never dreamed of!</p>
+        </section>
+        <section id="stories">
+            <h2>Featured Stories</h2>
+            <div class="story-preview">
+                <img src="https://i.ytimg.com/vi/iNqUlHPXV4w/maxresdefault.jpg" alt="Cartoon image of an enchanted forest with magical creatures">
+                <h3>The Enchanted Forest</h3>
+                <p>Join Lily and her talking squirrel friend as they navigate through a magical forest filled with wonder and mystery.</p>
+                <a href="#" class="cta-button">Read More</a>
+            </div>
+            <div class="story-preview">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgOXCi-XIHVTG6xPWOQq9jg2WZhxVFrWpVHw&s" alt="Cartoon image of a cat pirate sailing a ship">
+                <h3>Captain Whiskers' Pirate Adventure</h3>
+                <p>Set sail with Captain Whiskers, the bravest cat pirate to ever roam the seven seas, as he searches for the legendary Golden Mouse treasure.</p>
+                <a href="#" class="cta-button">Read More</a>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Storytelling Adventures</h2>
+            <p>We are passionate about creating imaginative stories that inspire and entertain children of all ages. Our team of talented writers and illustrators work together to bring magical worlds to life.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have a story idea or just want to say hello? Reach out to us at <a href="mailto:hello@storytellingadventures.com">hello@storytellingadventures.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Storytelling Adventures. All rights reserved.</p>
+        <p>Inspiring young minds through the power of stories.</p>
+    </footer>
+</body>
+</html>
