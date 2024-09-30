@@ -54,11 +54,24 @@ var samaanAya = +prompt("Saman total amount: ")
 
 // next version
 
-if(samaan > samaanAya){
-    console.log((samaan - samaanAya) +  " baqi ap rkh lena");
-}else if(samaan < samaanAya){
-    console.log((samaanAya - samaan) + " baqi mujhe milane pre");
-}
-else{
-    console.log("apka naseeb 😥"); 
-}
+// if(samaan > samaanAya){
+//     console.log((samaan - samaanAya) +  " baqi ap rkh lena");
+// }else if(samaan < samaanAya){
+//     console.log((samaanAya - samaan) + " baqi mujhe milane pre");
+// }
+// else{
+//     console.log("apka naseeb 😥"); 
+// }
+
+// Assignment help
+// sub1 = prompt
+// sub2 = prompt
+// sub3 = prompt
+// sub4 = prompt
+// sub5 = prompt
+// totalNum = 500
+
+// calculate percentage
+// if condition pr apne grade
+
+// document ki result ko print krna he
