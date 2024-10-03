@@ -63,7 +63,7 @@ var samaanAya = +prompt("Saman total amount: ")
 //     console.log("apka naseeb 😥"); 
 // }
 
-// Assignment help
+// Assignment Help 😎
 // sub1 = prompt
 // sub2 = prompt
 // sub3 = prompt
