@@ -1,3 +1,3 @@
 # CSS Card Assignment
 
-![alt text](./images/image.png)
+![NG Innovate Assignment](./images/image.png)
