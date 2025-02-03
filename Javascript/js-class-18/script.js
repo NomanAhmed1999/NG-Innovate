@@ -24,10 +24,10 @@ let forLoop = array.map((item, index) => {
 console.log('forLoop', forLoop);
 
 
-// function filter() {
-//     let filteredData = array.filter(item => item !== input.value);
-//     result.innerHTML = filteredData;
-// }
+function filter() {
+    let filteredData = array.some(item => item !== input.value);
+    result.innerHTML = filteredData;
+}
 
 // function find() {
 //     let filteredData = array.find(item => item !== input.value);
